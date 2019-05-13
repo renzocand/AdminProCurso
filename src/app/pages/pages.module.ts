@@ -13,6 +13,7 @@ import { SharedModule } from '../shared/shared.module';
 import { PageRoutingModule } from './pages.routes';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/dona/grafico-dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
@@ -22,7 +23,8 @@ import { GraficoDonaComponent } from '../components/dona/grafico-dona.component'
         PagesComponent,
         IncrementadorComponent,
         Graficas1Component,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
