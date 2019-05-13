@@ -1,0 +1,10 @@
+<h3>{{leyenda}}</h3>
+
+<div class="input-group">
+    <input type="number" class="form-control" name="porcentaje" placeholder="Recipient's username" [(ngModel)]="porcentaje"
+      aria-label="Recipient's username with two button addons" aria-describedby="button-addon4" min="" max="100" (ngModelChange)="onChanges($event)" #txtProgress>
+    <div class="input-group-append" id="button-addon4">
+      <button class="btn btn-outline-secondary" type="button" (click)="cambiarValor(-5)" ><i class="mdi mdi-minus"></i></button>
+      <button class="btn btn-outline-secondary" type="button" (click)="cambiarValor(+5)"><i class="mdi mdi-plus"></i></button>
+    </div>
+  </div>
